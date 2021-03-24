@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(230, 230, 230);
+}
+
+.container {
+    padding: 20px;
+}
+
+.inner {
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 5px;
+}
+
+.spaziatura {
+    padding: 50px;
+}
+
+.spaziatura ul {
+    list-style-type: none;
+}
