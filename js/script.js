@@ -14,7 +14,7 @@ var cognomeInserito = prompt("Inserisci il cognome", "Inserisci: ");
 arrayCognomi.push(cognomeInserito);
 // console.log(arrayCognomi);
 
-// Stampa con ol li in forma umana (indice +1)
+// Stampa con il for 
 for (var i = 0; i < arrayCognomi.length; i++) {
 
 
@@ -23,3 +23,17 @@ for (var i = 0; i < arrayCognomi.length; i++) {
 
     // console.log(arrayCognomi[i]);
 }
+
+
+
+// stampa con il while -- levare il commenti.
+
+// var i = 0;
+
+// while (i < arrayCognomi.length) {  
+
+//     var listaPrecedente = document.getElementById("lista").innerHTML;
+//     document.getElementById("lista").innerHTML = listaPrecedente + "<li>" + (i + 1) + " " + arrayCognomi[i] + "</li>";
+
+//     i++;
+// }
