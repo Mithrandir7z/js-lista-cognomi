@@ -17,13 +17,16 @@ arrayCognomi.push(cognomeInserito);
 // Stampa con il for 
 for (var i = 0; i < arrayCognomi.length; i++) {
 
+    arrayCognomi.sort();
 
     var listaPrecedente = document.getElementById("lista").innerHTML;
     document.getElementById("lista").innerHTML = listaPrecedente + "<li>" + (i + 1) + " " + arrayCognomi[i] + "</li>";
 
-    // console.log(arrayCognomi[i]);
-}
+    if (cognomeInserito === arrayCognomi[i]) {
+        console.log("La posizione del tuo cognome è: " + (i + 1) );
+    }
 
+}
 
 
 // stampa con il while -- levare il commenti.
@@ -32,8 +35,14 @@ for (var i = 0; i < arrayCognomi.length; i++) {
 
 // while (i < arrayCognomi.length) {  
 
+//     arrayCognomi.sort();
+
 //     var listaPrecedente = document.getElementById("lista").innerHTML;
 //     document.getElementById("lista").innerHTML = listaPrecedente + "<li>" + (i + 1) + " " + arrayCognomi[i] + "</li>";
+
+//         if (cognomeInserito === arrayCognomi[i]) {
+//             console.log("La posizione del tuo cognome è: " + (i + 1) );
+//         }
 
 //     i++;
 // }
