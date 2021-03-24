@@ -14,10 +14,11 @@ var cognomeInserito = prompt("Inserisci il cognome", "Inserisci: ");
 arrayCognomi.push(cognomeInserito);
 // console.log(arrayCognomi);
 
+arrayCognomi.sort();
+
 // Stampa con il for 
 for (var i = 0; i < arrayCognomi.length; i++) {
 
-    arrayCognomi.sort();
 
     var listaPrecedente = document.getElementById("lista").innerHTML;
     document.getElementById("lista").innerHTML = listaPrecedente + "<li>" + (i + 1) + " " + arrayCognomi[i] + "</li>";
@@ -35,7 +36,6 @@ for (var i = 0; i < arrayCognomi.length; i++) {
 
 // while (i < arrayCognomi.length) {  
 
-//     arrayCognomi.sort();
 
 //     var listaPrecedente = document.getElementById("lista").innerHTML;
 //     document.getElementById("lista").innerHTML = listaPrecedente + "<li>" + (i + 1) + " " + arrayCognomi[i] + "</li>";
